@@ -1,4 +1,6 @@
 Rails3template::Application.routes.draw do
+  resources :messages
+
   get "home/index"
 
   # The priority is based upon order of creation:
